@@ -1,0 +1,41 @@
+# Build outputs
+dist/
+.out/
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editor
+.idea/
+*.iml
+*.iws
+/out/
+
+# TypeScript / Vite cache
+.tsbuildinfo
+.vite/
+
+# Coverage (если используешь тесты)
+coverage/
+
+# Local config overrides
+vercel.json
+netlify.toml
+
+# macOS metadata
+._*
+
+# Windows thumbnails
+ehthumbs.db
